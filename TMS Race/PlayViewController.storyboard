@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vOS-pK-Xak">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Play View Controller-->
+        <scene sceneID="JTM-IA-PTd">
+            <objects>
+                <viewController id="vOS-pK-Xak" customClass="PlayViewController" customModule="TMS_Race" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ll9-VC-k34">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallPicSixth" translatesAutoresizingMaskIntoConstraints="NO" id="tNq-g0-1ln">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="7pb-Ob-V95"/>
+                                    <constraint firstAttribute="width" constant="414" id="tMH-zC-CLd"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallPicFifth" translatesAutoresizingMaskIntoConstraints="NO" id="Lsa-cY-3pf">
+                                <rect key="frame" x="0.0" y="180" width="414" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="1g7-TH-73n"/>
+                                    <constraint firstAttribute="height" constant="180" id="SHZ-3A-wR2"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallPicThird" translatesAutoresizingMaskIntoConstraints="NO" id="AfP-m0-yku">
+                                <rect key="frame" x="0.0" y="360" width="414" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="2a5-uD-c1J"/>
+                                    <constraint firstAttribute="width" constant="414" id="im3-94-ais"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallPicSecond" translatesAutoresizingMaskIntoConstraints="NO" id="ais-LN-uTQ">
+                                <rect key="frame" x="0.0" y="540" width="414" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="NRL-QB-3a3"/>
+                                    <constraint firstAttribute="height" constant="180" id="cbS-Dc-Xqa"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallPicFirst" translatesAutoresizingMaskIntoConstraints="NO" id="Dqj-jR-Xul">
+                                <rect key="frame" x="0.0" y="720" width="414" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="IqR-eu-7I8"/>
+                                    <constraint firstAttribute="width" constant="414" id="jTX-Gt-0r1"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallPicSeventh" translatesAutoresizingMaskIntoConstraints="NO" id="pJQ-j1-ULb">
+                                <rect key="frame" x="0.0" y="900" width="414" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="9Yx-gI-QzE"/>
+                                    <constraint firstAttribute="height" constant="180" id="OcI-Oo-sl1"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rackOfPickles" translatesAutoresizingMaskIntoConstraints="NO" id="vh7-bk-dBv">
+                                <rect key="frame" x="174" y="113" width="66" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5kJ-PI-eih">
+                                <rect key="frame" x="0.0" y="663" width="414" height="185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="8Kw-P9-LDK" appends="YES" id="sJD-Rd-Dqo"/>
+                                </connections>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="windowOne" translatesAutoresizingMaskIntoConstraints="NO" id="0IM-ql-L7P">
+                                <rect key="frame" x="34" y="900" width="206" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="windowTwo" translatesAutoresizingMaskIntoConstraints="NO" id="IVm-Jr-sql">
+                                <rect key="frame" x="138" y="1300" width="206" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NIc-lh-M6q">
+                                <rect key="frame" x="406" y="0.0" width="8" height="896"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="8" id="gCY-iM-Wep"/>
+                                    <constraint firstAttribute="height" constant="896" id="zHa-kq-fuF"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Clo-lX-qXf">
+                                <rect key="frame" x="0.0" y="0.0" width="8" height="896"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="896" id="VTH-A8-ESA"/>
+                                    <constraint firstAttribute="width" constant="8" id="dE3-4O-0Da"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCo-a7-UbZ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bed-aC-zf8"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Clo-lX-qXf" firstAttribute="top" secondItem="Ll9-VC-k34" secondAttribute="top" id="1Ji-WX-PV9"/>
+                            <constraint firstItem="Dqj-jR-Xul" firstAttribute="top" secondItem="ais-LN-uTQ" secondAttribute="bottom" id="2XM-aT-Jv6"/>
+                            <constraint firstItem="Lsa-cY-3pf" firstAttribute="top" secondItem="tNq-g0-1ln" secondAttribute="bottom" id="6WB-K3-xYq"/>
+                            <constraint firstItem="ais-LN-uTQ" firstAttribute="leading" secondItem="bed-aC-zf8" secondAttribute="leading" id="BkV-cF-HtI"/>
+                            <constraint firstItem="AfP-m0-yku" firstAttribute="top" secondItem="Lsa-cY-3pf" secondAttribute="bottom" id="CGh-Q2-1Fu"/>
+                            <constraint firstItem="tNq-g0-1ln" firstAttribute="leading" secondItem="bed-aC-zf8" secondAttribute="leading" id="Ib4-1r-GQj"/>
+                            <constraint firstItem="pJQ-j1-ULb" firstAttribute="top" secondItem="Dqj-jR-Xul" secondAttribute="bottom" id="JNd-ZF-vfW"/>
+                            <constraint firstItem="Clo-lX-qXf" firstAttribute="leading" secondItem="bed-aC-zf8" secondAttribute="leading" id="KMJ-of-1bq"/>
+                            <constraint firstItem="ais-LN-uTQ" firstAttribute="top" secondItem="AfP-m0-yku" secondAttribute="bottom" id="W0d-b7-qmc"/>
+                            <constraint firstItem="Dqj-jR-Xul" firstAttribute="leading" secondItem="bed-aC-zf8" secondAttribute="leading" id="Woh-cL-Rci"/>
+                            <constraint firstItem="bed-aC-zf8" firstAttribute="trailing" secondItem="NIc-lh-M6q" secondAttribute="trailing" id="bln-Ln-0gv"/>
+                            <constraint firstItem="NIc-lh-M6q" firstAttribute="top" secondItem="Ll9-VC-k34" secondAttribute="top" id="pYT-As-pgV"/>
+                            <constraint firstItem="pJQ-j1-ULb" firstAttribute="leading" secondItem="Ll9-VC-k34" secondAttribute="leading" id="rx3-Lm-tYn"/>
+                            <constraint firstItem="Lsa-cY-3pf" firstAttribute="leading" secondItem="bed-aC-zf8" secondAttribute="leading" id="u9I-By-KRl"/>
+                            <constraint firstItem="tNq-g0-1ln" firstAttribute="top" secondItem="Ll9-VC-k34" secondAttribute="top" id="wmW-CV-fC7"/>
+                            <constraint firstItem="AfP-m0-yku" firstAttribute="leading" secondItem="bed-aC-zf8" secondAttribute="leading" id="zNm-eQ-ueo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ScoreLabel" destination="VCo-a7-UbZ" id="ctf-FE-9JJ"/>
+                        <outlet property="borderLeftView" destination="NIc-lh-M6q" id="Kne-dK-ufp"/>
+                        <outlet property="borderRightView" destination="Clo-lX-qXf" id="6rr-0N-c5k"/>
+                        <outlet property="picklesImageView" destination="vh7-bk-dBv" id="eBI-XX-lBC"/>
+                        <outlet property="wallPicFifth" destination="Lsa-cY-3pf" id="QSy-HT-2Ex"/>
+                        <outlet property="wallPicFirst" destination="Dqj-jR-Xul" id="yhW-G8-3yc"/>
+                        <outlet property="wallPicSecond" destination="ais-LN-uTQ" id="TKG-qB-8lc"/>
+                        <outlet property="wallPicSeventh" destination="pJQ-j1-ULb" id="sxT-WA-jbu"/>
+                        <outlet property="wallPicSixth" destination="tNq-g0-1ln" id="0LL-wi-MWJ"/>
+                        <outlet property="wallPicThird" destination="AfP-m0-yku" id="fQn-Ge-R5R"/>
+                        <outlet property="windowOneView" destination="0IM-ql-L7P" id="RBc-g7-gmA"/>
+                        <outlet property="windowTwoView" destination="IVm-Jr-sql" id="XI6-ck-Cmh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WOq-Gv-fbK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="8Kw-P9-LDK">
+                    <connections>
+                        <action selector="onPanMovePickles:" destination="vOS-pK-Xak" id="0uG-lg-HEh"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="95.652173913043484" y="125.89285714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="rackOfPickles" width="76" height="108"/>
+        <image name="wallPicFifth" width="207" height="90"/>
+        <image name="wallPicFirst" width="207" height="90"/>
+        <image name="wallPicSecond" width="207" height="90"/>
+        <image name="wallPicSeventh" width="207" height="90"/>
+        <image name="wallPicSixth" width="207" height="90"/>
+        <image name="wallPicThird" width="207" height="90"/>
+        <image name="windowOne" width="103" height="86"/>
+        <image name="windowTwo" width="103" height="86"/>
+    </resources>
+</document>
